@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:fontFamily="@font/montserrat_black"
+        android:padding="16dp"
+        android:text="Список групп отделения Т50"
+        android:textColor="#333333"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonGroup1"
+                android:layout_width="161dp"
+                android:layout_height="73dp"
+                android:layout_margin="16dp"
+                android:text="Т50-1-20"
+                android:fontFamily="@font/montserrat_light"/>
+
+            <Button
+                android:id="@+id/buttonGroup2"
+                android:layout_width="161dp"
+                android:layout_height="73dp"
+                android:layout_margin="16dp"
+                android:text="Т50-1-21, Т50-11/1-22"
+                android:fontFamily="@font/montserrat_light"/>
+
+            <Button
+                android:id="@+id/buttonGroup3"
+                android:layout_width="161dp"
+                android:layout_height="73dp"
+                android:layout_margin="16dp"
+                android:text="Т50-1-22"
+                android:fontFamily="@font/montserrat_light"/>
+
+            <Button
+                android:id="@+id/buttonGroup4"
+                android:layout_width="161dp"
+                android:layout_height="73dp"
+                android:layout_margin="16dp"
+                android:text="Т50-11-23"
+                android:fontFamily="@font/montserrat_light"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
